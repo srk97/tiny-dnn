@@ -2,6 +2,9 @@ sudo: required
 dist: trusty
 osx_image: xcode8
 
+services:
+  - docker
+
 language: cpp
 
 os:
